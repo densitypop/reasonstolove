@@ -1,0 +1,22 @@
+!!! Strict
+%html
+  %head
+    %title
+      Reasons to Love!
+    %link{ :href => "/stylesheets/reset.css", :rel => "stylesheet", :type => "text/css" }/
+    %link{ :href => "/stylesheets/screen.css", :rel => "stylesheet", :type => "text/css" }/
+  %body
+    %ul#nav-bar
+      %li.first
+        %a{ :href => "home" }
+          Home
+      %li
+        %a{ :href => "create" }
+          Create a List
+      %li
+        %a{ :href => "view" }
+          View All Lists
+      %li
+        %a{ :href => "about" }
+          About Us
+    = yield
