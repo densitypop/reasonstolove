@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/asset_packager"]
+	path = vendor/plugins/asset_packager
+	url = git://github.com/sbecker/asset_packager.git
+[submodule "vendor/plugins/resource_controller"]
+	path = vendor/plugins/resource_controller
+	url = git://github.com/giraffesoft/resource_controller.git
