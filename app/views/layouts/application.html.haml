@@ -8,15 +8,24 @@
   %body
     %ul#nav-bar
       %li.first
-        %a{ :href => "home" }
-          Home
+        %a{ :href => "home" } Home
       %li
-        %a{ :href => "create" }
-          Create a List
+        %a{ :href => "create" } Create a List
       %li
-        %a{ :href => "view" }
-          View All Lists
+        %a{ :href => "view" } View All Lists
       %li
-        %a{ :href => "about" }
-          About Us
-    = yield
+        %a{ :href => "about" } About Us
+    #main-content
+      = yield
+    #bottom
+      /%img{:src => '/images/small_logo.gif'}
+      %ul#nav-bar-bottom
+        %li.first
+          %a{ :href => "home" } Home
+        %li
+          %a{ :href => "create" } Create a List
+        %li
+          %a{ :href => "view" } View All Lists
+        %li
+          %a{ :href => "about" } About Us
+      /%img{:src => '/images/small_logo.gif'}
