@@ -1,0 +1,38 @@
+body 
+{ 
+scrollbar-base-color: #ffffff; 
+scrollbar-face-color: #ffffff; 
+scrollbar-track-color: #ffffff; 
+scrollbar-arrow-color: #FF3499;
+scrollbar-highlight-color: #ffffff; 
+scrollbar-3dlight-color: #ffffff; 
+scrollbar-shadow-color: #92D3E7;
+scrollbar-darkshadow-color: #FFFFFF; 
+
+} 
+a:link2 {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 11px; color: #FFFFFF}
+
+a:hover {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #000000; text-decoration: underline}
+a:active {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #3399FF}
+a:visited {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #000000; text-decoration: underline}
+
+.black_background {  background-color: #000000; font-family: "Trebuchet MS", Arial, Verdana; font-size: 11px; color: #666666}
+.top_nav_table {  background-image: url(images/top_nav.jpg); background-repeat: no-repeat}
+.main_table {  background-image: url(images/background.jpg); background-repeat: repeat-x}
+.love_box {  background-image: url(images/box_background.gif); background-repeat: no-repeat; padding-top: 8px}
+.textfield {  background-color: #FFFFFF; border: 1px #92D3E7 solid; font-family: "Trebuchet MS", Arial, Verdana; font-size: 10px; color: #3399FF}
+.blueborder_background {  background-image: url(images/blueborder_background.jpg); background-repeat: repeat-y; font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #333333; padding-top: 25px; padding-right: 15px; padding-bottom: 15px; padding-left: 25px}
+.pinkborder_background {  background-image: url(images/pinkborder_background.jpg); background-repeat: repeat-y; font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #333333; padding-top: 25px; padding-right: 15px; padding-bottom: 15px; padding-left: 25px}
+.top_background {  background-image: url(images/top_nav_background.jpg); background-repeat: repeat-x}
+.lower_background {  background-image: url(images/lower_background.jpg); background-repeat: repeat-x}
+.nav_links {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #FFFFFF}
+.top_table_background {  background-image: url(images/top_background.jpg); background-repeat: repeat-x}
+.love_box2 {  background-image: url(images/box_background2.gif); background-repeat: no-repeat; padding-top: 8px}
+.title {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 22px; color: #FF3499}
+.box {  background-image: url(images/box.jpg); background-repeat: no-repeat; font-family: "Trebuchet MS", Arial, Verdana; font-size: 12px; color: #5F8C00}
+.small_green_text {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 10px; color: #B1FF0F; font-style: italic}
+.inside_box {  padding-top: 15px}
+.black_text {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 18px; color: #000000}
+.text_votes {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 11px; font-style: italic; color: #000000}
+.yourvote_background {  background-image: url(images/box_background3.gif); background-repeat: repeat-y; font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #333333; padding-top: 15px; padding-left: 15px}
+.text {  font-family: "Trebuchet MS", Arial, Verdana; font-size: 13px; color: #333333}
