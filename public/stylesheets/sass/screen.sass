@@ -81,31 +81,41 @@ h3
 
 form.create-list
   :margin 35px auto
-  :width 33%
-  :height 48px
-  :background url(/images/create-form-left.png) no-repeat left
-  :position relative
-  :text-align left
-  label
-    :position absolute
-    :width 100%
-    :height 100%
-    :text-indent -9999px
-    :background url(/images/create-form-right.png) no-repeat right
-    :z-index 1
-  input
-    :margin-top 11px
+  :width 785px
+  :height 120px
+  :padding-top 35px
+  :background url(/images/create-list.png) no-repeat
+  input#list-name
+    :margin-right 10px
+    :font-size 1.8em
+    :color #aaa
+    :font-family Helvetica,Sans-Serif
+    :padding 3px
+    :width 66%
+    &:focus, &:hover
+      :background-color #FFFFCC
   button
-    :position absolute
-    :border 0
-    :background transparent
-    :top 9px
-    :margin-left 2px
-    :z-index 101
-  input#create-list
-    :margin-left 210px
-    :border solid thin #92d3e7
-    :z-index 100
+    :background-color #f5f5f5
+    :border 1px solid #dedede
+    :border-top 1px solid #eee
+    :border-left 1px solid #eee
+    :font-family sans-serif
+    :font-size 100%
+    :line-height 130%
+    :text-decoration none
+    :font-weight bold
+    :color #565656
+    :cursor pointer
+    :width auto
+    :overflow visible
+    :padding 4px 10px 3px 7px
 
+    &[type]
+      :line-height 17px
 
-
+    img
+      :margin 0 3px -3px 0 !important
+      :padding 0
+      :border none
+      :width 16px
+      :height 16px

@@ -2,10 +2,10 @@
   %a{ :href => '/', :title => 'Reasons to Love' } Reasons to Love
 
 %form{:action => '/whatever', :method => 'post', :class => 'create-list'}
-  %label What do you love?
-  %input{:id => 'create-list', :type => 'text'}/
+  %input{:id => 'list-name', :type => 'text', :value => 'What do you love?'}/
   %button{:type => 'submit'}
-    %img{:src => '/images/button-create-list.png'}
+    %img{:src => '/images/icons/bullet_go.png', :alt => ''}
+    Create My List!
   /%input{:type => 'image', :src => '/images/button-create-list.png'}/
 
 .blue-box
