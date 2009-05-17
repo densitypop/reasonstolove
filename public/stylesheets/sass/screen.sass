@@ -1,3 +1,15 @@
+=nav_list_item
+  :display inline
+  :border-right solid 1px #50bef6
+  :padding 6px 0
+
+  &.first
+    :border-left solid 1px #50bef6
+
+  a
+    :color #fff
+    :padding 5px 15px
+    :line-height 2em
 body
   :background url(/images/top_nav.jpg) repeat-x
   :font small helvetica, arial, sans-serif
@@ -12,14 +24,88 @@ body
   :padding-top 2px
 
   li
-    :display inline
-    :border-right solid 1px #50bef6
-    :padding 6px 0
+    +nav_list_item
 
-    &.first
-      :border-left solid 1px #50bef6
+#bottom
+  :margin-top 70px
+  :width 100%
+  :height 115px
+  :background url(/images/bottom_nav.png) repeat-x
+  #nav-bar-bottom
+    :width 100%
+    :background url(/images/top_nav_overlay.jpg) no-repeat
+    :text-align center
+
+    li
+      +nav_list_item
+
+  img
+    :display inline
+
+#main-content
+  :position relative
+  :top 55px
+  :width 100%
+  :text-align center
+
+h1
+
+  &.logo
+    :background url(/images/logo.gif) no-repeat center
+    :margin 0 auto
+    :width 50%
 
     a
-      :color #fff
-      :padding 5px 15px
-      :line-height 2em
+      :display block
+      :height 77px
+      :width 100%
+      :text-indent -9999px
+
+h2
+
+  &.tagline
+    :margin-top 25px
+    :font-weight bold
+    :font-style italic
+    :font-size large
+
+h3
+  &.instructions
+    :margin-top 25px
+    :color #FF3399
+    :font-style italic
+    :font-size medium
+
+    span
+      :color #666
+
+form.create-list
+  :margin 35px auto
+  :width 33%
+  :height 48px
+  :background url(/images/create-form-left.png) no-repeat left
+  :position relative
+  :text-align left
+  label
+    :position absolute
+    :width 100%
+    :height 100%
+    :text-indent -9999px
+    :background url(/images/create-form-right.png) no-repeat right
+    :z-index 1
+  input
+    :margin-top 11px
+  button
+    :position absolute
+    :border 0
+    :background transparent
+    :top 9px
+    :margin-left 2px
+    :z-index 101
+  input#create-list
+    :margin-left 210px
+    :border solid thin #92d3e7
+    :z-index 100
+
+
+
