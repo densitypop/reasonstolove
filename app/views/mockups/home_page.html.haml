@@ -1,0 +1,31 @@
+%h1.logo
+  %a{ :href => '/', :title => 'Reasons to Love' } Reasons to Love
+
+%h2.tagline Love something, someone or someplace?
+
+%h3.instructions
+  Contribute your reasons to existing lists or create your own reason list about any subject.
+
+%form{:action => '/whatever', :method => 'post', :class => 'create-list'}
+  %label What do you love?
+  %input{:id => 'create-list', :type => 'text'}/
+  %button{:type => 'submit'}
+    %img{:src => '/images/button-create-list.png'}
+  /%input{:type => 'image', :src => '/images/button-create-list.png'}/
+
+.blue-box
+  %h3 The Most Voted on Lists
+  %ul
+    %li
+      Thanksgiving Day - (11 reasons to love)
+    %li
+      New York City - (7 reasons to love)
+    %li
+      Cats - (6 reasons to love)
+    %li
+      George W Bush - (5 reasons to love)
+    %li
+      Halloween - (5 reasons to love)
+    %li
+      My best friend Kara - (5 reasons to love)
+
